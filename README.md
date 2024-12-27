@@ -128,23 +128,28 @@ Contributions are welcome! Follow these steps:
 ### Fork the repository:
 bash
 Copy code
-git fork https://github.com/Kailash51/Voice-Based-Patient-Call-System.git  
+git fork https://github.com/visuraj/VishalKumar.git
 
-Create a new branch:
+### Create a new branch:
 bash
 Copy code
-git checkout -b feature/AmazingFeature  
-Commit your changes:
+git checkout -b feature/AmazingFeature 
+
+### Commit your changes:
 bash
 Copy code
 git commit -m 'Add some AmazingFeature'  
-Push to the branch:
+
+### Push to the branch:
 bash
 Copy code
 git push origin feature/AmazingFeature  
 Open a pull request for review.
-License
-### This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+### License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 markdown
 Copy code
