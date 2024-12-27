@@ -74,9 +74,89 @@ The **Voice-Based Patient Call System** aims to simplify interactions between pa
 ## Installation  
 
 ### 1. Clone the Repository  
-```bash
 git clone https://github.com/Kailash51/Voice-Based-Patient-Call-System.git  
 cd Voice-Based-Patient-Call-System
+
+
+
+### 2. Backend Setup
+
+cd server  
+npm install  
+
+
+
+
+### Update the .env file with your configurations:
+
+env
+Copy code
+MONGO_URI=your_mongodb_uri  
+JWT_SECRET=your_jwt_secret  
+PORT=5000
+
+Start the backend server:
+
+bash
+Copy code
+npm start  
+
+### 3. Frontend Setup
+cd client  
+npm install  
+
+### Update the configuration: Edit src/config.ts with your backend URL.
+Start the frontend application:
+
+npm start
+
+### Running the Application
+
+Use the Expo Go app to scan the QR code from your terminal.
+Alternatively, run the app on an emulator via Android Studio or Xcode.
+
+### Default Admin Credentials
+
+Email: admin
+Password: admin
+
+
+
+Contributing
+Contributions are welcome! Follow these steps:
+
+### Fork the repository:
+bash
+Copy code
+git fork https://github.com/Kailash51/Voice-Based-Patient-Call-System.git  
+
+Create a new branch:
+bash
+Copy code
+git checkout -b feature/AmazingFeature  
+Commit your changes:
+bash
+Copy code
+git commit -m 'Add some AmazingFeature'  
+Push to the branch:
+bash
+Copy code
+git push origin feature/AmazingFeature  
+Open a pull request for review.
+License
+### This project is licensed under the MIT License. See the LICENSE file for details.
+
+markdown
+Copy code
+
+### Instructions:
+1. Copy the entire code above.
+2. Paste it into your `README.md` file on GitHub.
+3. Commit and push the changes to your repository.
+
+This will create a properly structured and formatted `README.md` file with all the necessary
+
+
 
 
 
